@@ -1,0 +1,51 @@
+/* Style général */
+body {
+  font-family: "Verdana", sans-serif;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+/* Titre principal */
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+/* ===================== */
+/* Exercice 1 : Box Model */
+/* ===================== */
+.box {
+  width: 150px;               /* largeur du contenu */
+  padding: 20px;              /* espace intérieur */
+  border: 3px solid #3498db; /* bordure bleue */
+  margin: 10px auto;          /* marge externe et centré horizontalement */
+  background-color: #ecf0f1;  /* couleur de fond */
+  text-align: center;         /* texte centré */
+  font-weight: bold;
+}
+
+/* ===================== */
+/* Exercice 2 : Flexbox    */
+/* ===================== */
+.flex-container {
+  display: flex;                 /* active Flexbox */
+  justify-content: space-between;/* espace égal entre les éléments */
+  align-items: center;           /* centrage vertical */
+  height: 120px;                 /* hauteur du conteneur */
+  background-color: #f0f0f0;    /* couleur du conteneur */
+  padding: 10px;                 /* espace intérieur */
+  margin-top: 20px;
+}
+
+.flex-container div {
+  width: 40px;                   /* largeur des éléments */
+  height: 40px;                  /* hauteur des éléments */
+  background-color: #e67e22;     /* couleur des éléments */
+  color: white;                  /* couleur du texte */
+  display: flex;                 /* Flexbox interne pour centrer le texte */
+  justify-content: center;       /* centrage horizontal */
+  align-items: center;           /* centrage vertical */
+  border-radius: 5px;            /* coins arrondis */
+  font-weight: bold;
+}
+

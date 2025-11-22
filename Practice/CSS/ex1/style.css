@@ -1,0 +1,20 @@
+/* Style du corps de la page */
+body {
+  background-color: #f0f0f0;
+  font-family: "Verdana", sans-serif;
+}
+
+/* Style du titre */
+h1.titre {
+  color: #e67e22;       /* Orange */
+  font-size: 40px;       /* Taille du texte */
+  text-align: center;    /* Centre le texte */
+}
+
+/* Style du paragraphe important */
+p.important {
+  color: #2980b9;        /* Bleu foncé */
+  font-weight: bold;      /* Texte en gras */
+  font-style: italic;     /* Texte en italique */
+  text-align: center;     /* Centre le texte */
+}

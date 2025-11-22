@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Formulaire de contact FRMF 🇲🇦⚽</title>
+  </head>
+  <body>
+    <header>
+      <h1>Contactez la FRMF ⚽</h1>
+      <p>Pour toute question ou demande, remplissez ce formulaire :</p>
+    </header>
+
+    <main>
+      <form action="#" method="POST">
+        <fieldset>
+          <legend>Informations personnelles 👤</legend>
+
+          <label for="nom">Nom :</label><br />
+          <input
+            type="text"
+            id="nom"
+            name="nom"
+            placeholder="Entrez votre nom"
+            required
+          /><br /><br />
+
+          <label for="prenom">Prénom :</label><br />
+          <input
+            type="text"
+            id="prenom"
+            name="prenom"
+            placeholder="Entrez votre prénom"
+            required
+          /><br /><br />
+
+          <label for="email">Email :</label><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="exemple@mail.com"
+            required
+          /><br /><br />
+        </fieldset>
+
+        <fieldset>
+          <legend>Détails de la demande 📝</legend>
+
+          <label for="sujet">Sujet :</label><br />
+          <select id="sujet" name="sujet" required>
+            <option value="question" selected>Question</option>
+            <option value="probleme">Problème</option>
+            <option value="autre">Autre</option></select
+          ><br /><br />
+
+          <label for="message">Message :</label><br />
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            cols="40"
+            placeholder="Écrivez votre message ici..."
+            required
+          ></textarea
+          ><br /><br />
+
+          <label>Type de demande :</label><br />
+          <input
+            type="radio"
+            id="question"
+            name="type"
+            value="Question"
+            checked
+          />
+          <label for="question">Question</label>
+          <input type="radio" id="probleme" name="type" value="Problème" />
+          <label for="probleme">Problème</label>
+          <input type="radio" id="autre" name="type" value="Autre" />
+          <label for="autre">Autre</label><br /><br />
+
+          <input
+            type="checkbox"
+            id="newsletter"
+            name="newsletter"
+            value="oui"
+          />
+          <label for="newsletter"
+            >Je souhaite recevoir la newsletter FRMF 📰</label
+          ><br /><br />
+        </fieldset>
+
+        <button type="submit">✅ Envoyer</button>
+        <button type="reset">❌ Réinitialiser</button>
+      </form>
+    </main>
+
+    <footer>
+      <p>© 2025 — Réalisé par Mohamed Elgharbaouy</p>
+    </footer>
+  </body>
+</html>
