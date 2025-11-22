@@ -1,7 +1,4 @@
-project/
-│
-├─ index.html          # Main HTML file
-├─ style.css           # CSS file
-├─ images/             # Images used in the project
-├─ scripts/            # JS files (if any)
-└─ README.md           # Project description
+# 📘 HTML & CSS Exercises Project
+
+This project contains **HTML and CSS exercises** for university practice.  
+It demonstrates basic HTML structure, links, images, forms, and styling with CSS.
